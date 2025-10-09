@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Login Suite" verbose="4">
+	<listeners>
+		<listener class-name="com.qa.swaglabs.listeners.TestAllureListeners" />
+		<listener class-name="com.aventstack.chaintest.plugins.ChainTestListener" />
+	</listeners>
+
+	<test name= "Locked User Test">
+	<parameter name="browser" value ="chrome"/>
+		<classes>
+			<class name="com.qa.swaglabs.tests.LockedUserTest" />
+		</classes>
+	</test>
+	
+	<test name="Login With Multiple Users Test">
+	<parameter name="browser" value ="chrome"/>
+		<classes>
+			<class name="com.qa.swaglabs.tests.LoginPageTest" />
+		</classes>
+	</test>
+	
+	<test name= "Order Successful Test">
+	<parameter name="browser" value ="chrome"/>
+		<classes>
+			<class name="com.qa.swaglabs.tests.OrderSuccessfulTest" />
+		</classes>
+	</test>
+	
+	<test name="Add Products Test">
+	<parameter name="browser" value ="chrome"/>
+		<classes>
+			<class name="com.qa.swaglabs.tests.AddItemsToTheCartTest" />
+		</classes>
+	</test>
+	
+	<test name="Cart Badge Count Test">
+	<parameter name="browser" value ="chrome"/>
+		<classes>
+			<class name="com.qa.swaglabs.tests.CartBadgeCountTest" />
+		</classes>
+	</test>
+	
+	<test name="Broken Image For Problem User Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.swaglabs.tests.BrokenImageTest" />
+		</classes>
+	</test>
+	
+	<test name="Invalid Login With Multiple Users Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.swaglabs.tests.InvalidUserLoginTest" />
+		</classes>
+	</test>
+	
+	<test name="Remove Items From Cart Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.qa.swaglabs.tests.RemoveItemsTest" />
+		</classes>
+	</test>
+</suite>
