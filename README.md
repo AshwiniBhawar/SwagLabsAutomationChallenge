@@ -15,21 +15,21 @@ This is a test automation framework for website https://www.saucedemo.com This f
 
 ## Scenarios Automated
 
-a) Handle multiple user types (standard_user, problem_user) using excel file
+a) Handle multiple user types (standard_user, problem_user) using an Excel file
 
-b) Implemente proper error handling for locked_out_user
+b) Implement proper error handling for the locked_out_user
 
-c) Add the 2 most expensive products to cart and validate the added products details with cart products details
+c) Add the two most expensive products to the cart and validate that the added product details match the cart product details
 
-d) Verify cart badge count updates correctly for the added products
+d) Verify that the cart badge count updates correctly after adding the products
 
-e) Remove one item from the cart and verify the cart badge count update
+e) Remove one item from the cart and verify that the cart badge count updates accordingly
 
-f) Verify the overview page shows the correct item total, tax, and final total
+f) Verify that the overview page displays the correct item total, tax, and final tota
 
-e) Complete the order and validate successful message
+g) Complete the order and validate the success message
 
-f) Handle the "problem_user" scenario where images might be broken
+h) Handle the problem_user scenario where images might be broken
 
 
 ## Screenshots/Videos:
