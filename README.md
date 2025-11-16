@@ -1,5 +1,8 @@
 # E-Commerce SauceDemo Website
 
+**This challenge was given by Naveen Khunteta and I'm happy to announce that I was selected as the winner :)** 
+**Link-** https://shiftsync.tricentis.com/missions-challenges-41/challenge-by-naveen-e-commerce-checkout-flow-with-dynamic-obstacles-2400
+
 This is a test automation framework for website https://www.saucedemo.com This framework automates an E-Commerce web application using Selenium WebDriver, Java, TestNG, and Maven, following a hybrid framework approach
 
 ## Tools And Technologies Used To Automate Website
